@@ -1,0 +1,1 @@
+export { CharactersMainInfo } from './CharactersMainInfo';

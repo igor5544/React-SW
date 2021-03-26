@@ -1,0 +1,1 @@
+export { PlanetsInfoCont } from './PlanetsInfoContainer';

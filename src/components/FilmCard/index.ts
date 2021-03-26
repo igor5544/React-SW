@@ -1,0 +1,1 @@
+export { FilmCardCont } from './FilmCardContainer';

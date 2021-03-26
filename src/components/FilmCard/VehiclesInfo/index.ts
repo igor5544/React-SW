@@ -1,0 +1,1 @@
+export { VehiclesInfoCont } from './VehiclesInfoContainer';

@@ -1,0 +1,1 @@
+export { SpeciesItem } from './SpeciesItem';

@@ -1,0 +1,26 @@
+.cardsList .itemCard {
+  transition: all 0.3s;
+  display: block;
+  margin: 20px 0;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 0 #f50057;
+}
+
+.cardsList .itemCard:first-child {
+  margin-top: 0;
+}
+
+.itemCard:hover {
+  box-shadow: 1px 1px 10px 0 #f50057;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+}
+
+.statItem {
+  margin-right: 20px;
+  margin-left: 20px;
+}

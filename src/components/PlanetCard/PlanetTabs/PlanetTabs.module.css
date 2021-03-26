@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  z-index: 5;
+}
+
+.link {
+  padding: 10px 30px 5px;
+  margin-right: 1px;
+  margin-left: 1px;
+  text-decoration: none;
+  color: #000;
+  background-color: #ffffff;
+  border: 2px solid transparent;
+}
+
+.linkActive {
+  border-bottom-color: #f50057;
+  color: #f50057;
+  pointer-events: none;
+}

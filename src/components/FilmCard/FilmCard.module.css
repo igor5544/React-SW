@@ -1,0 +1,10 @@
+.wrapper .card {
+  height: 82vh;
+  padding: 20px;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+
+.btnText {
+  margin-right: 10px;
+}

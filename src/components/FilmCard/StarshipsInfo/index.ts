@@ -1,0 +1,1 @@
+export { StarshipsInfoCont } from './StarshipsInfoContainer';

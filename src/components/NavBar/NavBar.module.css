@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  transition: all 0.3s;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link:hover,
+.linkActive {
+  color: #ff0000;
+  background-color: #ffffff;
+}
+
+.linkActive {
+  pointer-events: none;
+}
+
+.link:active {
+  opacity: 0.6;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  padding: 10px 20px;
+}

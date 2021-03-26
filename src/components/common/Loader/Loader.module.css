@@ -1,0 +1,45 @@
+.ldsRing {
+  display: block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.ldsRing::before,
+.ldsRing::after,
+.ldsRing div::after,
+.ldsRing div::before {
+  content: '';
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border: 8px solid #337ab7;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #337ab7 transparent transparent transparent;
+}
+
+.ldsRing::after {
+  animation-delay: -0.45s;
+}
+
+.ldsRing::before {
+  animation-delay: -0.3s;
+}
+
+.ldsRing div::after {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

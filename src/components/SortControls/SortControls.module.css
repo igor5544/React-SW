@@ -1,0 +1,23 @@
+.wrapper {
+  margin-top: 60px;
+  padding: 20px 40px;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-right: 50px;
+}
+
+.sortWrapper {
+  display: block;
+}
+
+.wrapper .control {
+  margin-bottom: 30px;
+}

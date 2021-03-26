@@ -1,0 +1,1 @@
+export { PlanetsPageCont } from './PlanetsPageContainer';

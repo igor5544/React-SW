@@ -1,0 +1,57 @@
+.controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnText {
+  margin-right: 8px;
+}
+
+.title {
+  text-align: center;
+}
+
+.infoList,
+.charactersList {
+  list-style: none;
+}
+
+.charactersList {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.charactersList li {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.opening {
+  padding-right: 140px;
+  padding-left: 20px;
+}
+
+.date {
+  max-width: 200px;
+  margin-left: auto;
+}
+
+.alert {
+  position: absolute;
+  right: 50%;
+  top: 30%;
+  background-color: #ffffff;
+  width: 400px;
+  padding: 30px 40px;
+  text-align: center;
+  transform: translate(50%, -50%);
+}
+
+.btnWrapper button {
+  margin-right: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+}
+
+.infoList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.infoItem {
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.itemTitle {
+  margin-right: 10px;
+  color: #f50057;
+}

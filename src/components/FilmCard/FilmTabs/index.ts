@@ -1,0 +1,1 @@
+export { FilmTabs } from './FilmTabs';

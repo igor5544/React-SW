@@ -1,0 +1,1 @@
+export { CharactersCardCont } from './CharactersCardContainer';

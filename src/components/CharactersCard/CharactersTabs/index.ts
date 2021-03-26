@@ -1,0 +1,1 @@
+export { CharactersTabs } from './CharactersTabs';

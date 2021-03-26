@@ -1,0 +1,1 @@
+export { AuthPageCont } from './AuthPageContainer';

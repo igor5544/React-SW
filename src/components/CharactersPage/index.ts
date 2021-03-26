@@ -1,0 +1,1 @@
+export { CharactersPageCont } from './CharactersPageContainer';
